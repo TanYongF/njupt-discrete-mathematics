@@ -47,8 +47,8 @@ public class shiyanTwi {
             booleans[4] = false;
         }
         //当集合为全集时候
-        if (set.size() == Math.pow(2,size)){
-            booleans[0] = false;
+        if (set.size() == size*size){
+            booleans[0] = true;
             booleans[1] = true;
             booleans[2] = true;
             booleans[3] = false;
